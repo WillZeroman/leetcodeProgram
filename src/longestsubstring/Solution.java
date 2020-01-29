@@ -7,7 +7,7 @@ import java.util.Map;
  * find the longest substring without repeating characters
  * <p>
  * my solution:
- * 遍历字符串，从小打到，找到不重复的。
+ * 遍历字符串，从小打大，找到不重复的。
  */
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
